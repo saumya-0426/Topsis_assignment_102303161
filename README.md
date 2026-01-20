@@ -21,7 +21,7 @@ The Python package is published on PyPI at:
 Install the package using pip:
 
 ```bash
-pip install Topsis-saumyakumari-102303161
+pip install Topsis-SaumyaKumari-102303161
 ```
 
 
