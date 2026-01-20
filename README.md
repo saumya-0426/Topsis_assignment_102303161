@@ -21,7 +21,7 @@ The Python package is published on PyPI at:
 Install the package using pip:
 
 ```bash
-pip install topsis-saumyakumari-102303161
+pip install Topsis-saumyakumari-102303161
 ```
 
 
@@ -46,9 +46,9 @@ pip install topsis-saumyakumari-102303161
 
 Topsis_Assignment/
 ├── topsis_web_service/
-│ ├── app.py
+│ ├── app.py/
 │ └── templates/
-│ └── index.html
+│ └── index.html/
 └── topsis_assignment1.ipynb   
 
 ---
