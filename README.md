@@ -44,12 +44,17 @@ pip install Topsis-saumyakumari-102303161
 
 ### Project Structure
 
-Topsis_Assignment/
-├── topsis_web_service/
-│ ├── app.py/
-│ └── templates/
-│ └── index.html/
-└── topsis_assignment1.ipynb   
+Topsis-Assignment-102303161/
+│
+├── topsis_assignment1.ipynb        # Task 1 & Task 2 (Colab notebook)
+│
+├── topsis_web_service/             # Task 3 (Web service)
+│   ├── app.py
+│   ├── requirements.txt
+│   └── templates/
+│       └── index.html
+│
+└── README.md 
 
 ---
 
