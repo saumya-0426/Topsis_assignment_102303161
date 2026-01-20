@@ -1,4 +1,4 @@
-<img width="494" height="262" alt="image" src="https://github.com/user-attachments/assets/5f742c09-1004-4e47-a4dd-9e608483846c" /># TOPSIS Implementation in Python
+### TOPSIS Implementation in Python
 
 **Author:** Saumya Kumari  
 **Roll No:** 102303161  
@@ -29,16 +29,16 @@ pip install topsis-saumyakumari-102303161
 
 ### Methodology
 
-TOPSIS is a multi-criteria decision-making technique that ranks alternatives based on their distance from an ideal solution.
-The steps followed are:
-Read the decision matrix from a CSV file
-Normalize the criteria values
-Apply the given weights to each criterion
-Determine the positive and negative ideal solutions using impacts
-Calculate the Euclidean distance from both ideal solutions
-Compute the TOPSIS score
-Rank alternatives based on the score
-The alternative with the highest TOPSIS score is ranked the best
+*TOPSIS is a multi-criteria decision-making technique that ranks alternatives based on their distance from an ideal solution.
+*The steps followed are:
+*Read the decision matrix from a CSV file
+*Normalize the criteria values
+*Apply the given weights to each criterion
+*Determine the positive and negative ideal solutions using impacts
+*Calculate the Euclidean distance from both ideal solutions
+*Compute the TOPSIS score
+*Rank alternatives based on the score
+*The alternative with the highest TOPSIS score is ranked the best
 
 ---
 
@@ -101,9 +101,9 @@ The program will generate a new file `result.csv` with two additional columns: *
 
 The topsis_web_service folder contains a Flask application that provides TOPSIS as a web service.
 Users can:
-Upload a CSV file
-Enter weights and impacts
-Get ranked results directly through the browser
+*Upload a CSV file
+*Enter weights and impacts
+*Get ranked results directly through the browser
 
 
 ---
@@ -111,21 +111,21 @@ Get ranked results directly through the browser
 ### Validation
 
 The program validates:
-Correct number of weights and impacts
-Numeric values in criteria columns
-Valid impact symbols (+ or -)
-Proper CSV file format
-Errors are displayed if invalid input is provided.
+*Correct number of weights and impacts
+*Numeric values in criteria columns
+*Valid impact symbols (+ or -)
+*Proper CSV file format
+*Errors are displayed if invalid input is provided.
 
 
 ---
 
 ### Dependencies
 
-Python 3.x
-pandas
-numpy
-flask
+*Python 3.x
+*pandas
+*numpy
+*flask
 
 ---
 
@@ -133,10 +133,10 @@ flask
 
 This project provides a complete and structured implementation of the TOPSIS decision-making method.
 It supports:
-PyPI package usage
-Command-line execution
-Data visualization through Colab
-Web-based interaction using Flask
+* PyPI package usage
+* Command-line execution
+* Data visualization through Colab
+* Web-based interaction using Flask
 
 
 
